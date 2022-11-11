@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap");
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+/* start variables declaration */
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-orange: #f44336;
+  --color-grin-p: #888888;
+  --color-grin: #616161;
+  --color-grin-img: #f1f1f1; }
+.color-black { color: var(--color-black); }
+.color-white { color: var(--color-white); }
+.color-orange { color: var(--color-orange); }
+.color-grin-p { color: var(--color-grin-p); }
+.color-grin { color: var(--color-grin); }
+/* end variables declaration */
+/* body */
+body {
+  font-family: "Poppins";
+  margin: 0 !important;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+/******start nav****** */
+nav {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  width: 21.21%;
+  height: 110vh;
+  position: fixed;
+  margin-top: -56px;
+  margin-left: 0;
+  overflow-x: hidden;
+}
+.Company-Name{
+  padding-top: 170px !important;
+  padding-bottom: 59px !important;
+  padding-left: 45px;
+  font-size: 24px !important;
+  font-family: "Poppins";
+  font-weight: bold;
+  width: 40px;
+}
+nav ul li {
+  list-style: none;
+  width: 100%;
+  display: block;
+  padding: 8px 45px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+a {
+  font-size: 20px !important;
+  font-family: Poppins;
+  /* ****** end nav *******/
+}
+main {
+  margin-left: 25.45%;
+  width: 71.3%;
+  margin-right: 4.24%;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 90px;
+
+}
+h2 {
+  font-weight: 500;
+  font-size: 37px;
+  color: var(--color-orange);
+  margin: 16px auto;
+}
+h3 {
+  padding-left: 15px;
+  font-weight: 500;
+  font-size: 23px;
+}
+.border {
+  background-color: var(--color-orange);
+  width: 54px;
+  height: 9px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+p {
+  font-size: 16px;
+  padding-bottom: 9px;
+}
+.butn li:hover a {
+  color: black;
+  background-color: white;
+  margin-left: 27px;
+}
+.butn li:hover {
+  color: black;
+  background-color: white;
+  width: 210px;
+}
+.fullcontrole {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+#Contact button {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+  border: none;
+}
+
+.imgs-1-2-3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.imgs-1-2-3 img {
+  padding-right: 13px;
+  padding-bottom: 14px;
+  width: 480px;
+  opacity: 0.7;
+}
+/* end section2 */
+/* start section3 */
+.img-p {
+  display: flex;
+  justify-content: space-between;
+}
+.pic img {
+  width: 310px;
+  filter: grayscale(0.8);
+}
+.pic {
+  background-color: var(--color-grin-img);
+  width: 310px;
+}
+.par-grin {
+  padding-left: 15px;
+  opacity: 0.6;
+  font-size: 15px;
+}
+.par-black {
+  font-size: 16px;
+  padding-left: 20px;
+}
+/* end section3 */
+.tablre {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.grond-table1 {
+  width: 49.5%;
+}
+#Basic {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-color: var(--color-grin);
+  color: #ffffff;
+}
+.table1 {
+  background-color: var(--color-grin-img);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.grond-table2 {
+  width: 49.5%;
+}
+#Pro {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-color: #f44336;
+  color: #ffffff;
+}
+.table2 {
+  background-color: var(--color-grin-img);
+  padding: 20px;
+  border-bottom: 1px solid rgb(213, 213, 213);
+
+  /* margin-top: -12px; */
+}
+.line {
+  text-decoration: underline;
+}
+.coins {
+  font-size: 28px;
+  font-weight: 400;
+}
+.apr-coins {
+  display: list-item;
+  opacity: 0.6;
+}
+.buttom1 {
+  color: var(--color-black);
+  background-color: var(--color-white);
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+}
+input:focus{
+  outline: none;
+}
+.buttom2 {
+  color: var(--color-white);
+  background-color: var(--color-orange);
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+}
+.buttom2:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.buttom1:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+i {
+  font-size: 25px;
+}
+footer {
+  color: var(--color-black);
+  background-color: var(--color-grin-img);
+  width: 78.79%;
+  margin-left: 21.21%;
+  margin-top: 20px;
+  padding: 40px 40px;
+  text-align: right;
+}
+footer i {
+  float: left;
+  cursor: pointer;
+  margin-left: 50px;
+}
+footer i:hover {
+  color: var(--color-orange);
+}
